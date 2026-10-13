@@ -1,6 +1,9 @@
 # micro-drill（微课特训）
 
-**版本：2026.10.13** · [English](README.md)
+**版本：2026.10.13** · 简体中文 | [English](README.md)
+
+> 一次只推进一个微步的互动微课技能，课程内容落盘为笔记本。英文说明见 [README.md](README.md)，英文技能文件见 [SKILL.en.md](SKILL.en.md)。
+> An interactive micro-course skill that advances one micro-step at a time and saves the course as notebooks. Skill files: [SKILL.md](SKILL.md) (中文) · [SKILL.en.md](SKILL.en.md) (English).
 
 一个**一次只推进一个微步**的教学型 agent 技能：≤1 分钟讲解 → 立刻出题 → 你作答 → agent 跑代码验证后再批改。绝不一次性讲完，整门课程会落盘成可反复运行、回看的笔记本。
 
@@ -32,8 +35,9 @@ learning_records/
 
 | 文件 | 用途 |
 |---|---|
-| `SKILL.md` | **中文**版技能（默认版，用中文授课） |
-| `SKILL.en.md` | 同一技能的**英文**版 |
+| [`SKILL.md`](SKILL.md) | **中文**版技能（默认版，用中文授课） |
+| [`SKILL.en.md`](SKILL.en.md) | 同一技能的**英文**版 |
+| [`README.md`](README.md) | 本说明的英文版 / This document in English |
 
 两个文件的 `name` 都是 `micro-drill`。无论装哪个，技能都会跟随学员使用的语言授课；区别只在于给 agent 的指令是中文还是英文。
 

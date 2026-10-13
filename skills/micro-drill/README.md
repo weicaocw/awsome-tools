@@ -1,6 +1,9 @@
 # micro-drill
 
-**Version: 2026.10.13** · [简体中文](README.zh-CN.md)
+**Version: 2026.10.13** · English | [简体中文](README.zh-CN.md)
+
+> 一次只推进一个微步的互动微课技能，课程内容落盘为笔记本。中文说明见 [README.zh-CN.md](README.zh-CN.md)，中文技能文件见 [SKILL.md](SKILL.md)。
+> An interactive micro-course skill that advances one micro-step at a time and saves the course as notebooks. Skill files: [SKILL.en.md](SKILL.en.md) (English) · [SKILL.md](SKILL.md) (中文).
 
 An agent skill that teaches you **one micro-step at a time**: a ≤1-minute explanation, then immediate questions, then you answer, then the agent runs code to verify before grading. It never dumps the whole lesson, and the entire course is saved as notebooks you can re-run and review.
 
@@ -32,8 +35,9 @@ learning_records/
 
 | File | Purpose |
 |---|---|
-| `SKILL.md` | The skill in **Chinese** (default; teaches in Chinese) |
-| `SKILL.en.md` | The same skill in **English** |
+| [`SKILL.md`](SKILL.md) | The skill in **Chinese** (default; teaches in Chinese) |
+| [`SKILL.en.md`](SKILL.en.md) | The same skill in **English** |
+| [`README.zh-CN.md`](README.zh-CN.md) | This document in Chinese / 本说明的中文版 |
 
 Both define `name: micro-drill`. The skill adapts to the learner's language either way; the two files differ in the language of the instructions to the agent.
 

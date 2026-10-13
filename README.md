@@ -20,7 +20,11 @@ This is a collection of my personal scripts, prompts and agent skills.
 
 # Agent Skills/代理技能
 ## English
-- [micro-drill](skills/micro-drill/README.md) (v2026.10.13): Teaches you one micro-step at a time (≤1-minute explanation → questions → verified grading). The course is saved as one notebook per milestone under `learning_records/`, with progress on every step and a "split into rungs" mode when a step is too hard.
+- **micro-drill** (v2026.10.13): Teaches you one micro-step at a time (≤1-minute explanation → questions → verified grading). The course is saved as one notebook per milestone under `learning_records/`, with progress on every step and a "split into rungs" mode when a step is too hard.
+  - Docs: [English](skills/micro-drill/README.md) · [简体中文](skills/micro-drill/README.zh-CN.md)
+  - Skill files: [SKILL.en.md (English)](skills/micro-drill/SKILL.en.md) · [SKILL.md (中文)](skills/micro-drill/SKILL.md)
 
 ## 简体中文
-- [micro-drill 微课特训](skills/micro-drill/README.zh-CN.md)（v2026.10.13）：一次只推进一个微步（≤1 分钟讲解 → 出题 → 验证后批改）。课程按里程碑落盘为 `learning_records/` 下的 ipynb，每个微步都标明进度，嫌难时可把微步拆成台阶。
+- **micro-drill 微课特训**（v2026.10.13）：一次只推进一个微步（≤1 分钟讲解 → 出题 → 验证后批改）。课程按里程碑落盘为 `learning_records/` 下的 ipynb，每个微步都标明进度，嫌难时可把微步拆成台阶。
+  - 说明文档：[简体中文](skills/micro-drill/README.zh-CN.md) · [English](skills/micro-drill/README.md)
+  - 技能文件：[SKILL.md（中文）](skills/micro-drill/SKILL.md) · [SKILL.en.md（English）](skills/micro-drill/SKILL.en.md)
